@@ -25,7 +25,7 @@ def calculateFuel(fuel):
         print("Shit dawg, We can't make it!!")
 
 
-
+# Collects user planet request and matches with a list of planets
 def planetInput():
     planetChoice=input("Where would you like to go, "+name+"?\n")
 
@@ -43,6 +43,8 @@ def planetInput():
             calculateFuel(500)
         case "Saturn" | "saturn":
             calculateFuel(700)
+        case "Uranus" | "uranus":
+            calculateFuel(850)
         case "Neptune" | "neptune":
             calculateFuel(1000)
         case "Pluto" | "pluto":
